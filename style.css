@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-esquerda {
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+#container-direita {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    background-color: #E8E6E6;
+}
+
+
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 53%;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    text-align-last: right;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 71px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 10px;
+    color: #68696B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1-e-p {
+    margin: 150px 0px 0px 50px;
+    justify-content: center;
+    text-align-last: left;
+    width: 50%;
+}
+
+#button {
+    margin: 50px 50px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align-last: left;
+}
+
+button {
+    text-align: center;
+    padding: 15px;
+    border: solid 1px black;
+}
+
+button:hover {
+    color: #68696B;
+    cursor: pointer;
+}
